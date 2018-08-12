@@ -10,8 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-/* general */
-
 .container {
   width: 100%;
   max-width: 960px;
@@ -110,7 +108,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -176,8 +175,6 @@ h3, h2 {
   margin-right: 25px;
 }
 
-/* contact page */
-
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -215,3 +212,41 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  .wrapper {
+    width: 1024px;
+    margin: 40px auto;
+  }
+  #main-content {
+    width: 500px;
+    padding: 30px;
+  }
+  #main-content {
+    float: left;
+    background: #fff;
+  }
+  @media screen and (max-width: 768px) {
+    body {
+      background: url("../images/concrete_seamless.png");
+    }
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+    }
+    #main-content {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    body {
+      background: url("../images/concrete_seamless.png");
+    }
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+    }
+    #main-content {
+      width: 100%;
+    }
+  }
